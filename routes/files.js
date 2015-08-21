@@ -7,8 +7,6 @@ var filesLocation = "../public/files";
 
 /* GET available files. */
 router.get('/', function(req, res, next) {
-	console.log(__dirname);
-	console.log(path.join(__dirname, filesLocation));
 	fs.readdir(path.join(__dirname, filesLocation), function(err, files) {
 		if (err) {
 			throw err;
