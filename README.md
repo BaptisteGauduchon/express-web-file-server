@@ -1,4 +1,16 @@
-![Maintenance](https://img.shields.io/maintenance/no/2018.svg?style=flat-square)
+![Maintenance](https://img.shields.io/maintenance/no/2019.svg?style=flat-square)
 
-# simple web file server
-A basic web app serving file to client using node.js and express
+# Simple web file server
+A basic web app serving static files from the `public/files` directory to clients using Node.js and Express.js
+
+## Usage
+
+### Test
+```bash
+npm test
+```
+
+### Run
+```bash
+npm start
+```
